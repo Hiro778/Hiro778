@@ -21,8 +21,7 @@
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Hiro778&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-<br>-hazze`on<br>
-<br>-Arisoza<br>
+<br>-hazze`on<br>b
 ---
 [![](https://komarev.com/ghpvc/?username=Hiro778&icon=0&color=0)](https://visitcount.itsvg.in)
 
