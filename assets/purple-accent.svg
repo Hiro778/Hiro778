@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 14" width="280" height="14" fill="none">
+  <defs>
+    <linearGradient id="stabiloGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8957E5" stop-opacity="0.2"/>
+      <stop offset="12%" stop-color="#8957E5" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#C084FC" stop-opacity="0.95"/>
+      <stop offset="88%" stop-color="#8957E5" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#8957E5" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Stylized Chisel Highlighter Underline -->
+  <path d="M 6 10 C 60 7, 140 11, 274 8 C 270 13, 210 12, 6 12 Z" fill="url(#stabiloGradient)" filter="url(#neonGlow)"/>
+  <!-- Bright Core Ink Stripe -->
+  <path d="M 18 9.5 C 80 8, 170 10, 262 8.5" stroke="#C084FC" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+</svg>
