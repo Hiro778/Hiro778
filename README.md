@@ -117,9 +117,35 @@
   </p>
 </div>
 
-### 🏆 GitHub Trophies
+---
+
+## 📜 Certificate Gallery
+
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=Hiro778&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <table>
+    <tr>
+      <td width="50%" align="center" valign="top">
+        <a href="assets/cert-machine-learning.jpg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/cert-machine-learning.jpg" alt="Machine Learning Using Python - Simplilearn" style="max-width: 100%; border-radius: 8px;" />
+        </a>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Python_ML-Simplilearn-8957E5?style=flat-square&logo=python&logoColor=white&labelColor=0D1117" alt="Python ML Badge" />
+        <br/>
+        <b>Machine Learning Using Python</b><br/>
+        <sub>Issued by <b>Simplilearn SkillUp</b> • Nov 2026<br/>Credential ID: <code>11003011</code></sub>
+      </td>
+      <td width="50%" align="center" valign="top">
+        <a href="assets/cert-data-analyst.jpg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/cert-data-analyst.jpg" alt="Data Analyst 101 - Microsoft & Simplilearn" style="max-width: 100%; border-radius: 8px;" />
+        </a>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Data_Analyst-Microsoft-C084FC?style=flat-square&logo=microsoft&logoColor=white&labelColor=0D1117" alt="Data Analyst Badge" />
+        <br/>
+        <b>Data Analyst 101</b><br/>
+        <sub>Powered by <b>Microsoft &amp; Simplilearn</b> • Nov 2026<br/>Credential ID: <code>11031933</code></sub>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### ✍️ Random Dev Quote
