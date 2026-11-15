@@ -1,9 +1,9 @@
 <div align="center">
 
-  <!-- BANNER -->
+  <!-- 1. BANNER ANIME -->
   <img src="assets/hazzeon-banner.gif" alt="HAZZE'ON Anime Banner" width="539" style="max-width: 100%; border-radius: 10px;" />
 
-  <!-- HEADER -->
+  <!-- 2. HAZZE'ON BRANDING -->
   <h1 align="center"><b>HAZZE'ON</b></h1>
   <img src="assets/purple-accent.svg" alt="Purple Highlighter Accent" width="280" />
 
@@ -11,21 +11,11 @@
     <b>Founder of Hazze'On</b> • <i>Autonomous Web & AI Systems Architect</i>
   </p>
 
-  <!-- SOCIALS & QUICK CONTACT -->
-  <p align="center">
-    <a href="https://tiktok.com/@hazzeon_st" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/TikTok-@hazzeon__st-8957E5?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=0D1117" alt="TikTok" />
-    </a>
-    &nbsp;
-    <a href="mailto:hazzeonnn@gmail.com">
-      <img src="https://img.shields.io/badge/Email-hazzeonnn@gmail.com-C084FC?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
-    </a>
-  </p>
-
 </div>
 
 ---
 
+<!-- 3. ABOUT ME -->
 ## 💫 About Me
 
 > 🚀 **Founder of Hazze'On** — *A premium digital agency focused on building modern websites, AI-powered solutions, and business automation.*
@@ -40,47 +30,45 @@
 
 ---
 
-## 🛠️ What I Do & 🚀 Current Focus
+<!-- 4. WHAT I DO -->
+## 🛠️ What I Do
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛠️ What I Do
 - 🌐 **Website Development** — Next.js, modern frontends, performant backends
 - 🎨 **UI/UX Design** — Clean aesthetics, design systems & interactive prototypes
 - 🛒 **E-Commerce Solutions** — Conversion-optimized, fast online stores
 - 📈 **Business Digitalization** — Streamlining operations with modern digital workflows
 - 🚀 **Personal & Business Branding** — Crafting distinctive, authoritative online identities
 
-</td>
-<td width="50%" valign="top">
+---
 
-### 🚀 Current Focus
+<!-- 5. CURRENT FOCUS -->
+## 🚀 Current Focus
+
 - 🔥 **Growing Hazze'On Digital Agency** — Expanding client systems & offerings
 - 💻 **Building Premium Websites** — Delivering bespoke platforms for businesses
 - 📚 **Mastering Cutting-Edge Tech** — Exploring AI integration & autonomous workflows
 - 🌎 **Empowering Brands** — Establishing a commanding digital presence
 
-</td>
-</tr>
-</table>
-
 ---
 
-## 🚀 Featured Project
+<!-- 6. SOCIALS -->
+## 🌐 Socials & Connect
 
 <div align="center">
-  <a href="https://github.com/Hiro778/simply-ppt" target="_blank" rel="noopener noreferrer">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=Hiro778&repo=simply-ppt&bg_color=0D1117&title_color=C084FC&text_color=E6EDF3&icon_color=8957E5&border_color=8957E5&show_owner=true" alt="Simply PPT Featured Project" />
-  </a>
+  <p align="center">
+    <a href="https://tiktok.com/@hazzeon_st" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/TikTok-@hazzeon__st-8957E5?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=0D1117" alt="TikTok" />
+    </a>
+    &nbsp;
+    <a href="mailto:hazzeonnn@gmail.com">
+      <img src="https://img.shields.io/badge/Email-hazzeonnn@gmail.com-C084FC?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
+    </a>
+  </p>
 </div>
-
-> **[Simply PPT](https://github.com/Hiro778/simply-ppt)** — *A Smarter Way to Present.*  
-> A desktop-first presentation control platform that lets you deliver presentations locally on your machine while pairing with mobile controllers across any cellular or Wi-Fi network via Supabase Realtime signaling.
 
 ---
 
+<!-- 7. TECH STACK -->
 ## 💻 Tech Stack
 
 ### ⚡ Languages & Frameworks
@@ -104,7 +92,8 @@
 
 ---
 
-## 📊 GitHub Analytics
+<!-- 8. GITHUB STATS -->
+## 📊 GitHub Stats
 
 <div align="center">
   <p align="center">
@@ -119,35 +108,55 @@
 
 ---
 
-## 📜 Certificate Gallery
+<!-- 9. CERTIFICATE GALLERY -->
+## ✦ CERTIFICATES & LEARNING
 
 <div align="center">
+
+  <p>
+    <a href="https://hiro778.github.io/Hiro778/certificates/" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/Interactive_Swipe_Carousel-Open_Full_Gallery_➔-8957E5?style=for-the-badge&logo=safari&logoColor=white&labelColor=0D1117" alt="Open Interactive Carousel" />
+    </a>
+  </p>
+
   <table>
     <tr>
       <td width="50%" align="center" valign="top">
-        <a href="assets/cert-machine-learning.jpg" target="_blank" rel="noopener noreferrer">
-          <img src="assets/cert-machine-learning.jpg" alt="Machine Learning Using Python - Simplilearn" style="max-width: 100%; border-radius: 8px;" />
+        <a href="assets/certificates/machine-learning.jpg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/certificates/machine-learning.jpg" alt="Machine Learning Using Python - Simplilearn" style="max-width: 100%; border-radius: 10px;" />
         </a>
         <br/><br/>
         <img src="https://img.shields.io/badge/Python_ML-Simplilearn-8957E5?style=flat-square&logo=python&logoColor=white&labelColor=0D1117" alt="Python ML Badge" />
         <br/>
         <b>Machine Learning Using Python</b><br/>
         <sub>Issued by <b>Simplilearn SkillUp</b> • Nov 2026<br/>Credential ID: <code>11003011</code></sub>
+        <br/><br/>
+        <a href="assets/certificates/machine-learning.jpg" target="_blank" rel="noopener noreferrer">
+          <sub>🔍 <i>Click image for full-resolution (3508×2481)</i></sub>
+        </a>
       </td>
       <td width="50%" align="center" valign="top">
-        <a href="assets/cert-data-analyst.jpg" target="_blank" rel="noopener noreferrer">
-          <img src="assets/cert-data-analyst.jpg" alt="Data Analyst 101 - Microsoft & Simplilearn" style="max-width: 100%; border-radius: 8px;" />
+        <a href="assets/certificates/data-analysis.jpg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/certificates/data-analysis.jpg" alt="Data Analyst 101 - Microsoft & Simplilearn" style="max-width: 100%; border-radius: 10px;" />
         </a>
         <br/><br/>
         <img src="https://img.shields.io/badge/Data_Analyst-Microsoft-C084FC?style=flat-square&logo=microsoft&logoColor=white&labelColor=0D1117" alt="Data Analyst Badge" />
         <br/>
         <b>Data Analyst 101</b><br/>
         <sub>Powered by <b>Microsoft &amp; Simplilearn</b> • Nov 2026<br/>Credential ID: <code>11031933</code></sub>
+        <br/><br/>
+        <a href="assets/certificates/data-analysis.jpg" target="_blank" rel="noopener noreferrer">
+          <sub>🔍 <i>Click image for full-resolution (3508×2481)</i></sub>
+        </a>
       </td>
     </tr>
   </table>
+
 </div>
 
+---
+
+<!-- 10. RANDOM DEV QUOTE -->
 ### ✍️ Random Dev Quote
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&bg_color=0D1117&title_color=C084FC&text_color=E6EDF3&border_color=8957E5" alt="Random Dev Quote" />
@@ -155,6 +164,21 @@
 
 ---
 
+<!-- 11. FEATURED PROJECT -->
+## 🚀 Featured Project
+
+<div align="center">
+  <a href="https://github.com/Hiro778/simply-ppt" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=Hiro778&repo=simply-ppt&bg_color=0D1117&title_color=C084FC&text_color=E6EDF3&icon_color=8957E5&border_color=8957E5&show_owner=true" alt="Simply PPT Featured Project" />
+  </a>
+</div>
+
+> **[Simply PPT](https://github.com/Hiro778/simply-ppt)** — *A Smarter Way to Present.*  
+> A desktop-first presentation control platform that lets you deliver presentations locally on your machine while pairing with mobile controllers across any cellular or Wi-Fi network via Supabase Realtime signaling.
+
+---
+
+<!-- 12. FOOTER -->
 <div align="center">
   <p>
     <b>- Hazze'on</b>
