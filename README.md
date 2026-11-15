@@ -195,7 +195,18 @@
 </p>
 
 <!-- 11. FEATURED PROJECT -->
-## ✦ Featured Project
+## ✦ Featured Projects
+
+<div align="center">
+  <a href="https://github.com/Hiro778/simply-cashflow" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=Hiro778&repo=simply-cashflow&bg_color=0D0618&title_color=35D07F&text_color=F3F7F4&icon_color=35D07F&border_color=248652&show_owner=true" alt="Simply Cashflow Featured Project" style="max-width: 100%;" />
+  </a>
+</div>
+
+> **[Simply Cashflow](https://github.com/Hiro778/simply-cashflow)** — *Financial OS for Android.*  
+> An offline-first, privacy-focused financial management operating system featuring real SQLite local storage, interactive analytics, budget monitoring, and dynamic savings planner with zero external tracking.
+
+<br/>
 
 <div align="center">
   <a href="https://github.com/Hiro778/simply-ppt" target="_blank" rel="noopener noreferrer">
