@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="100%" height="24" fill="none">
+  <defs>
+    <!-- Linear gradient for outer neon glow -->
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D0618" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#8957E5" stop-opacity="0.25"/>
+      <stop offset="35%" stop-color="#A855F7" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#C084FC" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#A855F7" stop-opacity="0.85"/>
+      <stop offset="85%" stop-color="#8957E5" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0D0618" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Linear gradient for high-intensity central beam -->
+    <linearGradient id="coreBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8957E5" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#A855F7" stop-opacity="0.3"/>
+      <stop offset="45%" stop-color="#C084FC" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#F3E8FF" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#C084FC" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#A855F7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8957E5" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Radial bloom at the center -->
+    <radialGradient id="centerBloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#A855F7" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#8957E5" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0D0618" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle neon glow filter -->
+    <filter id="neonBlur" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur1"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ambient Bloom -->
+  <ellipse cx="500" cy="12" rx="140" ry="10" fill="url(#centerBloom)"/>
+
+  <!-- Outer Neon Beam -->
+  <line x1="80" y1="12" x2="920" y2="12" stroke="url(#glowGrad)" stroke-width="3" stroke-linecap="round" filter="url(#neonBlur)"/>
+
+  <!-- Core Sharp Laser -->
+  <line x1="200" y1="12" x2="800" y2="12" stroke="url(#coreBeam)" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Flanking Accent Satellites -->
+  <circle cx="430" cy="12" r="1.5" fill="#8957E5" opacity="0.7"/>
+  <circle cx="455" cy="12" r="2" fill="#A855F7" opacity="0.85"/>
+  <circle cx="475" cy="12" r="2.5" fill="#C084FC" filter="url(#neonBlur)"/>
+  <circle cx="525" cy="12" r="2.5" fill="#C084FC" filter="url(#neonBlur)"/>
+  <circle cx="545" cy="12" r="2" fill="#A855F7" opacity="0.85"/>
+  <circle cx="570" cy="12" r="1.5" fill="#8957E5" opacity="0.7"/>
+
+  <!-- Central Celestial Diamond (Anime Cyber Glyph) -->
+  <g filter="url(#neonBlur)">
+    <polygon points="500,4 505.5,12 500,20 494.5,12" fill="#A855F7"/>
+  </g>
+  <polygon points="500,6.5 503.8,12 500,17.5 496.2,12" fill="#F3E8FF"/>
+  <circle cx="500" cy="12" r="1.2" fill="#FFFFFF"/>
+</svg>

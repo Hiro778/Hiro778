@@ -1,22 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 14" width="280" height="14" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 18" width="320" height="18" fill="none">
   <defs>
-    <linearGradient id="stabiloGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8957E5" stop-opacity="0.2"/>
-      <stop offset="12%" stop-color="#8957E5" stop-opacity="0.85"/>
-      <stop offset="50%" stop-color="#C084FC" stop-opacity="0.95"/>
-      <stop offset="88%" stop-color="#8957E5" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#8957E5" stop-opacity="0.2"/>
+    <!-- Gradient for atmospheric neon glow -->
+    <linearGradient id="neonAccentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D0618" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#8957E5" stop-opacity="0.3"/>
+      <stop offset="35%" stop-color="#A855F7" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#C084FC" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#A855F7" stop-opacity="0.85"/>
+      <stop offset="88%" stop-color="#8957E5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0D0618" stop-opacity="0"/>
     </linearGradient>
-    <filter id="neonGlow" x="-10%" y="-30%" width="120%" height="160%">
-      <feGaussianBlur stdDeviation="1.5" result="blur" />
+
+    <!-- Intense core highlight -->
+    <linearGradient id="coreAccentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8957E5" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#A855F7" stop-opacity="0.4"/>
+      <stop offset="45%" stop-color="#F3E8FF" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#F3E8FF" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#A855F7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8957E5" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Multi-stage neon glow filter -->
+    <filter id="accentGlow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="2.2" result="glow1"/>
+      <feGaussianBlur stdDeviation="0.8" result="glow2"/>
       <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="glow1"/>
+        <feMergeNode in="glow2"/>
+        <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <!-- Stylized Chisel Highlighter Underline -->
-  <path d="M 6 10 C 60 7, 140 11, 274 8 C 270 13, 210 12, 6 12 Z" fill="url(#stabiloGradient)" filter="url(#neonGlow)"/>
-  <!-- Bright Core Ink Stripe -->
-  <path d="M 18 9.5 C 80 8, 170 10, 262 8.5" stroke="#C084FC" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Ambient Underline Beam with Glow -->
+  <path d="M 8 9 Q 160 5, 312 9" stroke="url(#neonAccentGrad)" stroke-width="4.5" stroke-linecap="round" filter="url(#accentGlow)" opacity="0.85"/>
+
+  <!-- Precise Laser Core Underline -->
+  <path d="M 32 9 Q 160 7, 288 9" stroke="url(#coreAccentGrad)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Central Anime Cyber Micro-Diamond Node -->
+  <g filter="url(#accentGlow)">
+    <polygon points="160,3 164,9 160,15 156,9" fill="#A855F7"/>
+  </g>
+  <polygon points="160,5 162.8,9 160,13 157.2,9" fill="#F3E8FF"/>
+  <circle cx="160" cy="9" r="1" fill="#FFFFFF"/>
 </svg>
